@@ -3,12 +3,11 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"dependencies": {
-		"node": "^13.5.0",
-		"node-sass": "^4.13.0",
 		"parcel": "^1.12.4"
 	},
 	"devDependencies": {
-		"parcel-bundler": "^1.12.4"
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.17.2"
 	},
 	"scripts": {
 		"dev": "parcel index.html",
