@@ -1,0 +1,36 @@
+.burger {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0.2rem 0.2rem 0 0;
+  flex-direction: column;
+  background: rgba(34, 119, 255, 0);
+  width: 3rem;
+  height: 2.7rem;
+  @include respond(tablet) {
+    display: none;
+  }
+  span:nth-of-type(1) {
+    display: block;
+    background: whitesmoke;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 2px auto;
+  }
+  span:nth-of-type(2) {
+    display: block;
+    background: whitesmoke;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 1px auto;
+  }
+  span:nth-of-type(3) {
+    background: whitesmoke;
+    width: 1.5rem;
+    height: 0.2rem;
+    margin: 2px auto 8px auto;
+  }
+}
