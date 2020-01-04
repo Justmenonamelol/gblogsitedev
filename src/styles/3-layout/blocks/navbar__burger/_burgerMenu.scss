@@ -3,7 +3,7 @@
   margin: 2.8rem 0rem 0rem 0rem;
   display: none;
   @include respond(tablet) {
-    display: block;
+    display: none;
   }
   ul {
     top: 0;
