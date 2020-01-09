@@ -1,4 +1,4 @@
-import '../styles/styles.scss';
+require('../styles/styles.scss');
 
 const burger = document.querySelector('.burger');
 const menu = document.querySelector('.burgerMenu');
