@@ -3,15 +3,16 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"dependencies": {
-		"parcel": "^1.12.4"
-	},
-	"devDependencies": {
+		"assemble": "^0.3.83",
+		"grunt": "^0.4.5",
 		"node-sass": "^4.13.0",
-		"parcel-bundler": "^1.12.4"
+		"parcel": "^1.12.4",
+		"styles": "^0.2.1"
 	},
+	"devDependencies": {},
 	"scripts": {
-		"dev": "parcel index.html",
-		"build": "parcel build index.html"
+		"dev": "parcel src/index.html",
+		"build": "parcel build src/index.html"
 	},
 	"repository": {
 		"type": "git",
