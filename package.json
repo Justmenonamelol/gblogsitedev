@@ -2,14 +2,11 @@
 	"name": "gblogsite",
 	"version": "1.0.0",
 	"main": "index.js",
-	"dependencies": {
-		"assemble": "^0.3.83",
-		"grunt": "^0.4.5",
+	"dependencies": {},
+	"devDependencies": {
 		"node-sass": "^4.13.0",
-		"parcel": "^1.12.4",
-		"styles": "^0.2.1"
+		"parcel-bundler": "^1.12.4"
 	},
-	"devDependencies": {},
 	"scripts": {
 		"dev": "parcel index.html",
 		"build": "parcel build index.html"

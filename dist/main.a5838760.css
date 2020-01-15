@@ -13,7 +13,8 @@
 - desktop 
 1em = 16px (12 font size Office word);
 */
-html, body {
+html,
+body {
   font-size: 62.5%;
   box-sizing: border-box;
   margin: 0;
