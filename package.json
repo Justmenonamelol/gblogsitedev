@@ -28,14 +28,14 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Justmenonamelol/gblogsite-.git"
+		"url": "git+https://github.com/Justmenonamelol/gblogsitedev.git"
 	},
 	"keywords": [],
 	"author": "Justmenonamelol",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/Justmenonamelol/gblogsite-/issues"
+		"url": "https://github.com/Justmenonamelol/gblogsitedev/issues"
 	},
-	"homepage": "https://github.com/Justmenonamelol/gblogsite-#readme",
-	"description": "Welcome to the gblogsite.com I hope you will have a good time in here."
+	"homepage": "https://github.com/Justmenonamelol/gblogsitedev#readme",
+	"description": "Blogsite"
 }
