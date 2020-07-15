@@ -4,6 +4,8 @@
 	"private": "true",
 	"main": "index.js",
 	"dependencies": {
+		"@babel/polyfill": "^7.10.4",
+		"babel-preset-env": "^1.7.0",
 		"css-loader": "^3.6.0",
 		"file-loader": "^6.0.0",
 		"html-loader": "^1.1.0",
@@ -11,8 +13,6 @@
 		"mini-css-extract-plugin": "^0.9.0",
 		"node-sass": "^4.14.1",
 		"optimize-css-assets-webpack-plugin": "^5.0.3",
-		"popper.js": "^1.16.1",
-		"sass-loader": "^9.0.2",
 		"style-loader": "^1.2.1",
 		"webpack": "^4.43.0",
 		"webpack-cli": "^3.3.12",
@@ -20,11 +20,17 @@
 		"webpack-merge": "^5.0.9"
 	},
 	"devDependencies": {
-		"clean-webpack-plugin": "^3.0.0"
+		"@babel/cli": "^7.10.5",
+		"@babel/core": "^7.10.5",
+		"@babel/preset-env": "^7.10.4",
+		"clean-webpack-plugin": "^3.0.0",
+		"sass-loader": "^9.0.2",
+		"source-map-loader": "^1.0.1"
 	},
 	"scripts": {
 		"start": "webpack-dev-server --config webpack.dev.js --open",
-		"build": "webpack --config webpack.prod.js"
+		"build": "webpack --config webpack.prod.js",
+		"babel": "babel src/scripts/index.js -d build/main.js"
 	},
 	"repository": {
 		"type": "git",

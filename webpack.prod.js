@@ -1,8 +1,8 @@
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const { merge } = require('webpack-merge');
 const path = require('path');
 const common = require('./webpack.common');
-const { merge } = require('webpack-merge');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugins = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
@@ -19,6 +19,7 @@ module.exports = merge(common, {
 			new TerserPlugin(),
 			new HtmlWebpackPlugin({
 				template: './src/styles/5-templates/template.html',
+				favicon: './src/styles/5-templates/favicon.ico',
 				minify: {
 					removeAttributeQuotes: true,
 					collapseWhitespace: true,

@@ -1,0 +1,26 @@
+a {
+	cursor: pointer;
+	text-decoration: none;
+	line-height: 2.2;
+	font-size: initial;
+	letter-spacing: 0.1rem;
+	height: 3rem;
+	color: green;
+	@include respond(galaxy5) {
+		margin-right: auto;
+	}
+	@include respond(iphonex) {
+		justify-content: center;
+	}
+}
+// a:nth-child(2) {
+// 	padding-left: 0.8rem;
+// 	@include respond(iphone4) {
+// 		margin-right: 2.3rem;
+// 	}
+// }
+// a:hover {
+// 	color: #2277ff;
+// 	text-decoration: underline;
+// 	text-decoration-color: #f5f5f5;
+// }
