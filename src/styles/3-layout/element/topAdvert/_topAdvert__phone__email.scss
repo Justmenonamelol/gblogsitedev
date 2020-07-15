@@ -1,17 +1,23 @@
-a {
+.topAdvert__phone__email a {
 	@include oswald;
+	@include charcoal;
+	@include respond(iphone5) {
+		@include prefix;
+		margin: 0 2rem;
+	}
 	text-decoration: none;
-	line-height: 2.2;
 	font-size: initial;
-	letter-spacing: 0.1rem;
-	height: 3rem;
-	color: red;
-	@include respond(galaxy5) {
-		margin-right: auto;
-	}
-	@include respond(iphonex) {
-		justify-content: center;
-	}
+	margin-right: 1rem;
+
+	// @include respond(htc) {
+	// 	margin: 0 0 0 0.6rem;
+	// }
+	// @include respond(iphone5) {
+	// 	color: pink;
+	// }
+	// @include respond(iphonex) {
+	// 	justify-content: center;
+	// }
 }
 // a:nth-child(2) {
 // 	padding-left: 0.8rem;

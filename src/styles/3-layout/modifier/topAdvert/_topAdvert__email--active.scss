@@ -1,0 +1,8 @@
+.topAdvert:hover {
+	@include lightbluebg;
+	transition: background 1s;
+	.topAdvert__phone__email a {
+		@include black;
+		font-weight: 200;
+	}
+}

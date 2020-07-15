@@ -1,17 +1,9 @@
 .topAdvert {
-	position: absolute;
+	position: relative;
 	@include whitebg;
+	border: 0.1rem solid #abd7e6;
 	width: 100%;
 	height: 2rem;
+	display: flex;
+	justify-content: flex-end;
 }
-// 	.prefixCode {
-// 		display: inline;
-// 		// media bellow fixes the error occured while using device range from 322px up to 333px;
-// 		@media (min-width: 322px) and (max-width: 333px) {
-// 			display: none;
-// 		}
-// 		@include respond(iphone4) {
-// 			display: none;
-// 		}
-// 	}
-// }
