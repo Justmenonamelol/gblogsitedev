@@ -1,11 +1,11 @@
 a {
-	cursor: pointer;
+	@include oswald;
 	text-decoration: none;
 	line-height: 2.2;
 	font-size: initial;
 	letter-spacing: 0.1rem;
 	height: 3rem;
-	color: green;
+	color: red;
 	@include respond(galaxy5) {
 		margin-right: auto;
 	}
@@ -23,4 +23,9 @@ a {
 // 	color: #2277ff;
 // 	text-decoration: underline;
 // 	text-decoration-color: #f5f5f5;
+// }
+// .advert__phone__email {
+// 	@media (min-width: 376px) {
+// 		padding-right: 1.7rem;
+// 	}
 // }

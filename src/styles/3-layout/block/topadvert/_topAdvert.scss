@@ -1,22 +1,17 @@
 .topAdvert {
 	position: absolute;
+	@include whitebg;
 	width: 100%;
-	background: pink;
 	height: 2rem;
-
-	.prefixCode {
-		display: inline;
-		// media bellow fixes the error occured while using device range from 322px up to 333px;
-		@media (min-width: 322px) and (max-width: 333px) {
-			display: none;
-		}
-		@include respond(iphone4) {
-			display: none;
-		}
-	}
 }
-.advert__phone__email {
-	@media (min-width: 376px) {
-		padding-right: 1.7rem;
-	}
-}
+// 	.prefixCode {
+// 		display: inline;
+// 		// media bellow fixes the error occured while using device range from 322px up to 333px;
+// 		@media (min-width: 322px) and (max-width: 333px) {
+// 			display: none;
+// 		}
+// 		@include respond(iphone4) {
+// 			display: none;
+// 		}
+// 	}
+// }

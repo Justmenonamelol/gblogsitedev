@@ -5,13 +5,14 @@ body {
 	margin: 0;
 	padding: 0;
 }
-// @font-face {
-// 	font-family: 'Open Sans', sans-serif;
-// 	src: url('./fonts/OpenSans-Regular.ttf') format('ttf');
-// 	font-family: 'Oswald', sans-serif;
-// 	src: url('.Oswald-VariableFont_wght.ttf') format('ttf');
+@font-face {
+	font-family: 'Open Sans', sans-serif;
+	src: url ('./fonts/OpenSans-Regular.ttf');
+	font-family: 'Oswald', sans-serif;
+	src: url ('.Oswald-VariableFont_wght.ttf');
+}
 
-// #any {
+/* // #any {
 // 	font-family: 'Oswald';
 // 	font-variation-settings: 'wdth' 400, 'wght' 98;
-//   }
+//   } */
