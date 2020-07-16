@@ -8,17 +8,22 @@
 	text-decoration: none;
 	font-size: initial;
 	margin-right: 1rem;
-
-	// @include respond(htc) {
-	// 	margin: 0 0 0 0.6rem;
-	// }
-	// @include respond(iphone5) {
-	// 	color: pink;
-	// }
-	// @include respond(iphonex) {
-	// 	justify-content: center;
-	// }
 }
+// .xOff {
+// 	font-size: 2rem;
+// 	width: 20rem;
+// 	margin-right: 2.5rem;
+// }
+
+// @include respond(htc) {
+// 	margin: 0 0 0 0.6rem;
+// }
+// @include respond(iphone5) {
+// 	color: pink;
+// }
+// @include respond(iphonex) {
+// 	justify-content: center;
+// }
 // a:nth-child(2) {
 // 	padding-left: 0.8rem;
 // 	@include respond(iphone4) {
