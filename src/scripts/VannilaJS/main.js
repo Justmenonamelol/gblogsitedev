@@ -1,15 +1,17 @@
-// require("../styles/styles.scss");
 
-// const burger = document.querySelector('.burger');
+
+const burger = document.querySelector('.burger');
 // const menu = document.querySelector('.burgerMenu');
 
-// burger.addEventListener('click', function (e) {
-// 	menu.classList.toggle('burgerMenu--display');
-// });
+burger.addEventListener('click', function (e) {
+	alert('veikia');
+	// menu.classList.toggle('burgerMenu--display');
+});
 
+const topAdvert = document.querySelector('.topAdvert');
 const xOff = document.querySelector('.xOff');
 
 xOff.addEventListener('click', function (e) {
-	xOff.classList.add('rmBlock');
-	console.log(xOff);
+	e.preventDefault;
+	topAdvert.classList.add('rm-block');
 });

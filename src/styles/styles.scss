@@ -1,6 +1,7 @@
 // /* Mobile first website */
 // @import '1-helpers/1-helpers';
 @import '1-helpers/mixins';
+@import '1-helpers/keyframes';
 @import '1-helpers/mixins--color';
 @import '1-helpers/mixins--colorbg';
 @import '1-helpers/mixins--prefix';
@@ -8,16 +9,22 @@
 @import '2-base/reset-list';
 @import '2-base/html__body.scss';
 // @import '3-layout/3-layout':
+
+///////// Main
+
 // @import '3-layout/Top Advert
 @import '3-layout/block/topAdvert/topAdvert';
 @import '3-layout/element/topAdvert/topAdvert__phone__email';
-@import '3-layout/modifier/topAdvert/topAdvert__phone--active';
-@import '3-layout/modifier/topAdvert/topAdvert__email--active';
+@import '3-layout/element/topAdvert/topAdvert__phone--active';
+@import '3-layout/element/topAdvert/topAdvert__email--active';
 @import '3-layout/modifier/topAdvert/topAdvert__xOff';
-@import '3-layout/block/navbar__burger/navBar';
-@import '3-layout/block/navbar__burger/logo';
-@import '3-layout/block/navbar__burger/burger';
-@import '3-layout/block/navbar__burger/burgerMenu';
+
+
+
+@import '3-layout/block/navBar/navBar';
+@import '3-layout/modifier/navBar/logo';
+@import '3-layout/element/navBar/burger';
+@import '3-layout/modifier/navBar/burgerMenu';
 @import '3-layout/block/account/login_register';
 
 // @import '3-layout/contact/form';

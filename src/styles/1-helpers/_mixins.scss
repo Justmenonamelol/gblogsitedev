@@ -3,7 +3,6 @@
 0 - 320px: IPhone5
 0 - 360px: htc
 0 - 768px:  Phone
-
 1em = 16px (12 font size Office word);
 1rem = 0.0625px
 */
@@ -55,6 +54,11 @@
 @mixin none {
 	display: none;
 }
+@mixin border-blue {
+	border: 0.1rem solid #abd7e6;
+}
+
+
 @mixin clearfix {
 	&::after {
 		content: '';
