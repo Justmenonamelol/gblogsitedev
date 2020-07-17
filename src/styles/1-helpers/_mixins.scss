@@ -54,11 +54,6 @@
 @mixin none {
 	display: none;
 }
-@mixin border-blue {
-	border: 0.1rem solid #abd7e6;
-}
-
-
 @mixin clearfix {
 	&::after {
 		content: '';
@@ -71,4 +66,11 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+// border
+@mixin border-blue {
+	border: 0.1rem solid #abd7e6;
+}
+@mixin rounded {
+	border-radius: 1.5rem;
 }

@@ -1,7 +1,7 @@
-.logo img {
-	width: 8rem;
-	position: relative;
+.logo {
+	position: absolute;
+
 }
-img:hover {
+.logo:hover {
 	opacity: 0.1;
 }
